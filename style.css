@@ -1,9 +1,21 @@
-
-.colorrrr {
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 40px;
+  }
+  
+  .navbar-nav {
+    margin-left: 40px;
+  }
+  
+  .colorrrr {
     position: relative;
     padding: 40px 0;
     overflow: hidden;
-
   }
   
   .background__img {
@@ -52,28 +64,27 @@
   .btn__wrapper button {
     margin-right: 10px;
   }
-
-  .btn1{
-   
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-width: 100px;
-height: 46px;
-border: none;
-color: #ffff;
-font-size: 12px;
-
-background: #7C3AED;
-border-radius: 8px;
+  
+  .btn1 {
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  
+    width: 100px;
+    height: 46px;
+    border: none;
+    color: #ffff;
+    font-size: 12px;
+  
+    background: #7c3aed;
+    border-radius: 8px;
   }
   
-  .btn__wrapper img{
+  .btn__wrapper img {
     width: 115px;
     margin: 2px 0px 0px -15px;
   }
-  .btn2{
+  .btn2 {
     width: 100px;
     height: 46px;
     border-radius: 8px;
@@ -106,10 +117,10 @@ border-radius: 8px;
       padding: 40px;
     }
   }
-
+  
   /* second container css */
- 
-  .row_wrapper{
+  
+  .row_wrapper {
     width: 75%;
     text-align: center;
     margin-left: auto;
@@ -119,15 +130,15 @@ border-radius: 8px;
   .img_border {
     display: flex;
     margin-right: auto;
-    margin-left: auto; 
+    margin-left: auto;
     padding: 15px;
     width: 95%;
   }
-
+  
   @media only screen and (max-width: 500px) {
-    .div-image{
-        padding: 10px;
-        margin: 5px 10px;
+    .div-image {
+      padding: 10px;
+      margin: 5px 10px;
     }
   }
   
@@ -137,18 +148,18 @@ border-radius: 8px;
       margin: 0px 5px;
     }
   }
-
+  
   /* third container css */
-  .third_container{
+  .third_container {
     margin-top: 50px;
   }
   
-  .header-part{
+  .header-part {
     align-items: center;
     justify-content: center;
     text-align: center;
   }
-  .header-part h3{
+  .header-part h3 {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.1rem;
@@ -164,166 +175,173 @@ border-radius: 8px;
     width: 60%;
     text-align: center;
   }
-
-  .third-section{
+  
+  .third-section {
     align-items: center;
     justify-content: center;
     text-align: center;
   }
-  .small-image{
+  .small-image {
     margin: 10px;
   }
-
+  
   /* fourth container css */
-  .fourth_container{
+  .fourth_container {
     margin-top: 50px;
-    background-color: #D5FAFC;
+    background-color: #d5fafc;
     padding: 0px;
-    
   }
-  .fourth-item{
+  .fourth-item {
     display: flex;
     align-items: center;
   }
-
-  .fourth-item h1{
+  
+  .fourth-item h1 {
     width: 70%;
     margin-top: 30px;
-    
   }
-  .header-item img{
+  .header-item img {
     width: 85px;
-    
   }
-  .header-item1{
-    margin-left: 54px;
+  .header-item1 {
+    margin-left: 60px;
     margin-top: -75px;
   }
-
-  .content1{
+  
+  .content1 {
     padding: 10px;
   }
-
-  .card1{
+  
+  .card1 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
   }
-  .card2{
-    
+  .card2 {
     margin-left: auto;
     margin-right: 140px;
-    margin-top:-400px;
+    margin-top: -400px;
   }
-
+  
   @media only screen and (max-width: 500px) {
     .card1 {
       height: 100px;
       margin-left: 250px;
     }
-    .card2{
-        height: 100px;
-        margin-left: auto;
-        margin-right: auto;
+    .card2 {
+      height: 100px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   
   @media only screen and (max-width: 700px) {
     .card1 {
-        /* height: 100px; */
-        /* margin-left: 250px; */
-      }
-      .card2{
-          height: 100px;
-          margin-left: auto;
-          margin-right: auto;
-      }
+      /* height: 100px; */
+      /* margin-left: 250px; */
+    }
+    .card2 {
+      height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
-
+  
   /* fifth container */
- .my-row{
-   width: 50%;
- }
- .box4{
+  .my-row {
+    width: 50%;
+  }
+  .box4 {
     margin-left: auto;
     padding-left: 25px;
-    }
-    .box-image{
-        width: 30px;
-        height: 25px;
-        margin: 10px 10px;
-    }
-    .header5{
+  }
+  .box-image {
+    width: 30px;
+    height: 25px;
+    margin: 10px 10px;
+  }
+  .header5 {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     /* height: 100%; */
-    }
-
-    .header5 h2{
-        width: 70%;
+  }
+  
+  .header5 h2 {
+    width: 70%;
     font-size: 38px;
     font-weight: 500;
     /* letter-spacing: 0.1rem; */
-    
-    }
-    .header5 p{
+  }
+  .header5 p {
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0.1rem;
     margin-top: 10px;
     margin-left: -90px;
+  }
+  
+  .header6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100%; */
+  }
+  
+  .header6 h2 {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    width: 70%;
+    /* text-align: center; */
+  }
+  .header6 p {
+    width: 75%;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    margin-left: 30px;
+  }
+  .semi-image {
+    margin-left: -75px;
+  }
+  
+  /* sixth container css */
+  .seventh-section {
+    display: flex;
+    background-color: #1db5be;
+    margin-top: 9rem;
+  }
+  
+  .header1 {
+    width: 75%;
+    margin: 5rem 5rem;
+  }
+  
+  .header1 h5 {
+    margin-top: 40px;
+  }
+  /* footer css */
+  .footer {
+    background-color: #000000;
+    padding: 3rem;
+    color: #ffff;
+  }
+  
+  @media only screen and (min-width: 700px) {
+    .phone-image1 {
+      position: absolute;
+      top: 0;
+      left: 0;
     }
-
-    .header6{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items:center;
-        /* height: 100%; */
-        }
-    
-        .header6 h2{
-        font-size: 48px;
-        font-weight: 500;
-        letter-spacing: 0.1rem;
-        width: 70%;
-        /* text-align: center; */
-        }
-        .header6 p{
-        width: 75%;
-        font-size: 16px;
-        font-weight: 300;
-        letter-spacing: 0.1rem;
-        margin-left: 30px;
-        
-        }
-        .semi-image{
-            margin-left: -75px;
-            
-        }
-
-        /* sixth container css */
-        .seventh-section{
-            display: flex;
-            background-color: #1DB5BE;
-            margin-top: 9rem;
-        }
-        
-        .header1{
-            width: 75%;
-            margin: 5rem 5rem;
-        }
-        
-        .header1 h5{
-            margin-top: 40px;
-            
-        }
-        /* footer css */
-        .footer{
-            background-color: #000000;
-            padding: 3rem;
-            color: #ffff;
-        }
+  
+    .phone-image2 {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+  
