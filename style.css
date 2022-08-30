@@ -1,3 +1,8 @@
+.main_sec{
+    width: 100%;
+    height: 100%;
+}
+
 .navbar {
     position: absolute;
     top: 0;
@@ -6,6 +11,8 @@
     width: 100%;
     background-color: transparent;
     margin-bottom: 40px;
+    font-family: 'Inter';
+    font-style: normal;
   }
   
   .navbar-nav {
@@ -23,9 +30,11 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 140%; */
     z-index: 0;
+    object-fit:contain;
+    
   }
   
   .content__wrapper {
@@ -47,6 +56,8 @@
     font-size: 48px;
     font-weight: 500;
     letter-spacing: 0.1rem;
+    font-family: 'Inter';
+    font-style: normal;
   }
   
   .item p {
@@ -54,6 +65,8 @@
     font-weight: 300;
     letter-spacing: 0.1rem;
     margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
   }
   
   .btn__wrapper {
@@ -120,6 +133,9 @@
   
   /* second container css */
   
+  .second_sec{
+    background-color: #ffff;
+  }
   .row_wrapper {
     width: 75%;
     text-align: center;
@@ -151,7 +167,9 @@
   
   /* third container css */
   .third_container {
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    padding-top: 30px;
+    background-color: #ffff;
   }
   
   .header-part {
@@ -160,12 +178,16 @@
     text-align: center;
   }
   .header-part h3 {
+    font-family: 'Inter';
+    font-style: normal;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.1rem;
     padding: 5px;
   }
   .header-part p {
+    font-family: 'Inter';
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.1rem;
@@ -186,67 +208,197 @@
   }
   
   /* fourth container css */
-  .fourth_container {
-    margin-top: 50px;
+.main__contrainer {
+    padding: 60px 20px;
     background-color: #d5fafc;
-    padding: 0px;
   }
-  .fourth-item {
+  
+  .row__container {
     display: flex;
-    align-items: center;
-  }
-  
-  .fourth-item h1 {
-    width: 70%;
-    margin-top: 30px;
-  }
-  .header-item img {
-    width: 85px;
-  }
-  .header-item1 {
-    margin-left: 60px;
-    margin-top: -75px;
-  }
-  
-  .content1 {
-    padding: 10px;
-  }
-  
-  .card1 {
-    display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
+    align-items: center;
   }
-  .card2 {
-    margin-left: auto;
-    margin-right: 140px;
-    margin-top: -400px;
+  
+  .main__col1 {
+    flex-basis: 100%;
+    padding: 40px 0;
+  }
+  .quote-img{
+    width: 18%;
+    
+  }
+  
+  .main__col2 {
+    flex-basis: 100%;
+    padding: 40px 0;
+  }
+  
+  .col__wrapper {
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 64px;
+    margin-top: -46px;
+  }
+  
+  .col__wrapper h2 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+  }
+  
+  .col__wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+  }
+  
+  .card__container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .col__card,
+  .col__card2,
+  .col__card3 {
+    width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+  
+  .col__card2,
+  .col__card3 {
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .col__card3 {
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .col__card p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+  }
+  
+  .col__card2 p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+  }
+  
+  .col__card3 p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+  }
+  
+  .col__card h3 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+  }
+  
+  .col__card2 h3 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+  }
+  
+  .col__card3 h3 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+  }
+  
+  .col__card h4 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+  }
+  
+  .col__card2 h4 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+  }
+  
+  .col__card3 h4 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin-top: 10px;
+  }
+  
+  .col__img {
+    position: relative;
+    height: 15px;
+    width: 20px;
+    margin-top: 10px;
+  }
+  
+  .col__img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media only screen and (min-width: 889px) {
+    .row__container {
+      flex-direction: row;
+    }
+  }
+  
+  @media only screen and (max-width: 889px) {
+    .card__container {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .main__col1 {
+      padding: 10px 0;
+    }
+  
+    .main__col2 {
+      padding: 10px 0;
+    }
   }
   
   @media only screen and (max-width: 500px) {
-    .card1 {
-      height: 100px;
-      margin-left: 250px;
+    .col__card,
+    .col__card2,
+    .col__card3 {
+      width: 100%;
+      margin: 0 5px;
     }
-    .card2 {
-      height: 100px;
-      margin-left: auto;
-      margin-right: auto;
+  
+    .col__card3 {
+      margin-top: 20px;
+    }
+  
+    .col__wrapper h2 {
+      font-size: 32px;
+    }
+  
+    .col__wrapper p {
+      font-size: 18px;
     }
   }
   
-  @media only screen and (max-width: 700px) {
-    .card1 {
-      /* height: 100px; */
-      /* margin-left: 250px; */
-    }
-    .card2 {
-      height: 100px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
   
   /* fifth container */
   .my-row {
@@ -262,20 +414,24 @@
     margin: 10px 10px;
   }
   .header5 {
+    font-family: 'Inter';
+    font-style: normal;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* height: 100%; */
   }
   
   .header5 h2 {
+    font-family: 'Inter';
+    font-style: normal;
     width: 70%;
     font-size: 38px;
     font-weight: 500;
-    /* letter-spacing: 0.1rem; */
   }
   .header5 p {
+    font-family: 'Inter';
+    font-style: normal;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0.1rem;
@@ -292,6 +448,8 @@
   }
   
   .header6 h2 {
+    font-family: 'Inter';
+    font-style: normal; 
     font-size: 48px;
     font-weight: 500;
     letter-spacing: 0.1rem;
@@ -299,6 +457,8 @@
     /* text-align: center; */
   }
   .header6 p {
+    font-family: 'Inter';
+    font-style: normal;
     width: 75%;
     font-size: 16px;
     font-weight: 300;
@@ -308,6 +468,72 @@
   .semi-image {
     margin-left: -75px;
   }
+  
+  @media only screen and (max-width: 889px) {
+    .my-row {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .box1 {
+      padding: 10px 0;
+    }
+  
+    .my-box {
+      padding: 10px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .my-row {
+      width: 10%;
+      justify-content: center;
+      align-items: center;
+      margin-left: 30px;
+    }
+    .box1 {
+      margin-left: 16px;
+    }
+    .box3 {
+      margin-left: -25px;
+      /* margin-bottom:150px; */
+    }
+    .box4 {
+      margin-left: -35px;
+    }
+
+    .my-box {
+      width: 100%;
+      /* margin: 0 5px; */
+      margin-left: 1px;
+    }
+    .header5 p{
+        text-align: inherit;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+  
+   
+    .header6 h2 {
+      font-size: 32px;
+      width: 100%;
+      margin-left: 20px;
+    }
+  
+    .header6 p {
+      font-size: 18px;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .semi-image{
+        width: 148%;
+        padding: 20px;
+        margin-top: 20px;
+    }
+  }
+  
   
   /* sixth container css */
   .seventh-section {
@@ -322,13 +548,19 @@
   }
   
   .header1 h5 {
+    font-family: 'Inter';
+    font-style: normal;
     margin-top: 40px;
   }
+
+  
   /* footer css */
   .footer {
     background-color: #000000;
     padding: 3rem;
     color: #ffff;
+    font-family: 'Inter';
+    font-style: normal;
   }
   
   @media only screen and (min-width: 700px) {
@@ -344,4 +576,5 @@
       right: 0;
     }
   }
+
   
